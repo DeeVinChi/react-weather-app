@@ -5,14 +5,22 @@ export default function Footer() {
   return (
     <div className="Footer">
       <footer>
+        This is an {""}
         <a
           href="https://github.com/DeeVinChi/react-weather-app"
           target="_blank"
           rel="noreferrer"
         >
-          Open-source code
+          open-source project
         </a>
-        <span>Uzoma Chigozirim</span>
+        {""} by {""}
+        <a
+          href="https://uzomachigozirim.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Uzoma Chigozirim
+        </a>
       </footer>
     </div>
   );

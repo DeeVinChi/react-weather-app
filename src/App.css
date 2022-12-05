@@ -7,21 +7,13 @@
   font-family: "Roboto", sans-serif;
   color: #fff;
   font-weight: 300;
-  max-width: 500px;
-  margin: 0 auto;
+  max-width: 600px;
+  margin: 30px auto;
 }
 
-h1 {
-  font-weight: 500;
-}
 
-h2 {
-  font-weight: 300;
-}
-
-i {
-  color: #fff;
-  font-size: 90px;
+.situation {
+  font-size: 12px;
 }
 
 button {
@@ -30,22 +22,6 @@ button {
   border-radius: 4px;
   border: 2px solid rgb(29, 41, 53);
   margin-top: 5px;
-}
-
-.degrees {
-  text-decoration: none;
-  color: #fff;
-  cursor: default;
-}
-
-.location {
-  font-weight: 500;
-  font-size: 35px;
-  margin-top: 0 auto;
-}
-
-.situation {
-  font-size: 12px;
 }
 
 .tomorrow,
@@ -61,7 +37,4 @@ button {
 
 .tomorrow-degree {
   font-size: 15px;
-}
-.icon {
-  font-size: 28px;
 }
