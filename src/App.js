@@ -7,7 +7,7 @@ export default function App() {
     city: "Abuja",
     day: "Tues",
     date: "15:20PM",
-    description: "Heavy Rain Fall",
+    description: "Heavy Rain",
   };
 
   return (
@@ -26,7 +26,7 @@ export default function App() {
             <span className="current-degree text-center pt-0 pb-0"></span>
             <span className="degree-sign">
               <a href="/" className="degrees">
-                ℃
+                7℃
               </a>{" "}
               |
               <a href="/" className="degrees">
@@ -35,7 +35,11 @@ export default function App() {
             </span>
           </h3>
           <div className="situation text-center pt-0">
-            {weatherData.description},
+            <ul>
+              <li>description: {weatherData.description}</li>
+              <li>Humidity:</li>
+              <li>Wind:</li>
+            </ul>
           </div>
         </div>
       </div>

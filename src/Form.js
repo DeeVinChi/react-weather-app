@@ -26,7 +26,7 @@ export default function Form() {
               className="form-control shadow"
             />
           </div>
-          <div className="col-2">
+          <div className="col-3">
             <input
               type="submit"
               value="Search"
