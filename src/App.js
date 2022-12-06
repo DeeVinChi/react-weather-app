@@ -4,11 +4,9 @@ import Footer from "./Footer";
 import Weather from "./Weather";
 
 export default function App() {
-
-
   return (
     <div className="App container body">
-      <Weather />
+      <Weather defaultLocation="sydney" />
       <Form />
       <Footer />
     </div>
