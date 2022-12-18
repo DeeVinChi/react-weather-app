@@ -14,18 +14,22 @@ export default function Degree(props) {
   }
 
   function fahrenheit() {
-   return Math.round((props.celsuis * 9) / 5 + 32);
-
+    return Math.round((props.celsuis * 9) / 5 + 32);
   }
 
   if (unit === "celsuis") {
     return (
       <div className="degree">
-        <a href="/" className="degrees">
+        <a href="/" className="degrees" rel="noreferrer">
           {Math.round(props.celsuis)}℃
         </a>{" "}
         |
-        <a href="/" className="degrees" onClick={displayFahrenheit}>
+        <a
+          href="/"
+          className="degrees"
+          onClick={displayFahrenheit}
+          rel="noreferrer"
+        >
           ℉
         </a>
       </div>
@@ -33,11 +37,16 @@ export default function Degree(props) {
   } else {
     return (
       <div className="degree">
-        <a href="/" className="degrees" onClick={displayCelsius}>
+        <a
+          href="/"
+          className="degrees"
+          onClick={displayCelsius}
+          rel="noreferrer"
+        >
           ℃
         </a>{" "}
         |
-        <a href="/" className="degrees">
+        <a href="/" className="degrees" rel="noreferrer">
           {fahrenheit()}℉
         </a>
       </div>
