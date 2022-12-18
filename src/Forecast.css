@@ -1,0 +1,15 @@
+.forecast {
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.forecast .colomn{
+  padding: 5px;
+}
+
+.forecast .colomn :hover {
+  background: rgb(31, 29, 36);
+  border-radius: 4px;
+  transition: all ease-in-out 200ms;
+}
+

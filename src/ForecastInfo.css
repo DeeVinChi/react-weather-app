@@ -1,0 +1,14 @@
+.forecastInfo {
+  padding: 10px;
+}
+
+.forecastInfo .day,
+.forecastInfo .icon,
+.forecastInfo .degree {
+  text-align: center;
+}
+
+.forecastInfo .degree .min {
+  opacity: 65%;
+}
+

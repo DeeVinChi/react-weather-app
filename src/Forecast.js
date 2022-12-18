@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import ForecastInfo from "./ForecastInfo";
+import "./Forecast.css";
 
 export default function Forecast(props) {
   const [ready, setReady] = useState(false);
@@ -22,7 +23,7 @@ export default function Forecast(props) {
           {info.map(function (dailyForecast, index) {
             if (index < 5)
               return (
-                <div className="col">
+                <div className="col colomn">
                   <ForecastInfo data={dailyForecast} />
                 </div>
               ); else {
